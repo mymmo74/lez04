@@ -20,6 +20,13 @@ public class Array {
         // Nell'array vengono inizializzati 100 elementi al valore di default 0
         int[] numeri1 = new int [100] ;
         
+        // Altra forma abbreviata (2) per dichiarare ed inizializzare un array
+        int[] numeri2 = {10,20,30,40};
+        
+        stampa(numeri2);
+        
+        System.out.println("-------------------");
+        
         //Stampa array
         stampa(numeri);
         
